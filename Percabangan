@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+int x;
+int y;
+int z;
+	
+cout<<"Masukkan nilai X: ";
+cin>>x;
+cout<<"Masukan nilai Y: ";
+cin>>y;
+ z = x + y;
+ cout<<x<<"+"<<y<<"="<<z<<endl;
+ if (z>=0){
+     cout<<" NILAI "<<z<<"ADALAH BILANGAN POSITIF"<<endl;	
+ }else if (z<0){
+     cout<<" NILAI "<<z<<"ADALAH BILANGAN NEGATIF"<<endl;
+}	
+cout<<" PROGRAM INI ADALAH PROGRAM BERHITUNG"<<endl;
+	
+return 0;
+
+}
