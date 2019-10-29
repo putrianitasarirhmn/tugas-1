@@ -1,0 +1,14 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(){
+int bilangan;
+int n, hasil=0;
+for(int n= 0; n<5; ++n){
+cout<<"Input Bilangan ke "<<n+1<<"= ";
+cin>>bilangan;
+hasil+=bilangan;}
+cout<<"\nJumlah Bilangan = "<<hasil<<endl;
+getch(); 
+return 0;
+}
