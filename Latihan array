@@ -1,0 +1,13 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main(){
+int bilangan[5];
+for(int i = 0; i<5; i++){
+cout<<"Input Bilangan ke "<<i+1<<" =";
+cin>>bilangan[i]}
+cout<<"\nBilangan yang anda masukan adalah :"<<endl;
+for(int i = 0; i<5; i++)
+cout<<"\nBilangan ke- "<<(i+1)<<" adalah"<<bilangan[i];
+getch(); return 0;
+}
